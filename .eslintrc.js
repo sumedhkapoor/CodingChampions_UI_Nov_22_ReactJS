@@ -3,19 +3,19 @@ module.exports = {
     browser: true,
     es2021: true,
     jest: true,
-    "jest/globals": true,
+    "jest/globals": true
   },
   extends: [
     "plugin:react/recommended",
     "airbnb",
     "airbnb/hooks",
     "plugin:prettier/recommended",
-    "plugin:jest/recommended",
+    "plugin:jest/recommended"
   ],
   overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
-    sourceType: "module",
+    sourceType: "module"
   },
   plugins: ["react", "jest"],
   rules: {
@@ -23,8 +23,8 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        endOfLine: "auto",
-      },
-    ],
-  },
+        endOfLine: "auto"
+      }
+    ]
+  }
 };
