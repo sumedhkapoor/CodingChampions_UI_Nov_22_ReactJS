@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1668800021472" clover="3.2.0">
+  <project timestamp="1668800021472" name="All files">
+    <metrics statements="23" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="12" coveredmethods="0" elements="39" coveredelements="0" complexity="0" loc="23" ncloc="23" packages="2" files="12" classes="12"/>
+    <package name="src">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="App.jsx" path="D:\Rahul_Sale\React18_WB\src\App.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="index.jsx" path="D:\Rahul_Sale\React18_WB\src\index.jsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="19" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="11" coveredmethods="0"/>
+      <file name="ChallengeToDeveloper.jsx" path="D:\Rahul_Sale\React18_WB\src\components\ChallengeToDeveloper.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ChallengeToTA.jsx" path="D:\Rahul_Sale\React18_WB\src\components\ChallengeToTA.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ChallengeToTL.jsx" path="D:\Rahul_Sale\React18_WB\src\components\ChallengeToTL.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="CompetionChallenge.jsx" path="D:\Rahul_Sale\React18_WB\src\components\CompetionChallenge.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="CompetionContainer.jsx" path="D:\Rahul_Sale\React18_WB\src\components\CompetionContainer.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="CounterContainer.jsx" path="D:\Rahul_Sale\React18_WB\src\components\CounterContainer.jsx">
+        <metrics statements="14" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+      <file name="CounterUI.jsx" path="D:\Rahul_Sale\React18_WB\src\components\CounterUI.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="EvaluationCriteria.jsx" path="D:\Rahul_Sale\React18_WB\src\components\EvaluationCriteria.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="SingleChallenge.jsx" path="D:\Rahul_Sale\React18_WB\src\components\SingleChallenge.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="TicTacToeContainer.jsx" path="D:\Rahul_Sale\React18_WB\src\components\TicTacToeContainer.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

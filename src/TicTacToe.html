@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Please enter your name, employee ID here.</title>
+    <link href="./bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .avatar {
+
+            width: 38px;
+
+            height: 34px;
+
+            text-align: center;
+
+            border: 1px solid black;
+
+            background-color: #712cf9;
+
+            color: white;
+
+        }
+
+        .avatar-title {
+
+            margin-top: 2px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <!-- container to hold/glue all three cards i.e. Add Player form, Score board & sudoku board-->
+        <div class="container">
+            <!-- The container for Add Player form & Score Board-->
+            <div id="addPalyer" class="row align-items-start mt-4">
+                <!-- The container to hold only Add Player form-->
+                <div class="col-12 col-lg-6">
+                    <!-- This is the actual component to submit/add player into the game-->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Add Player</h5>
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">First name</label>
+                                    <input type="text" class="form-control" id="firstName">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">First name</label>
+                                    <input type="text" class="form-control" id="firstName">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName">
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Start Game</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Container for Score Card only -->
+                <div class="col-12 col-lg-6">
+                    <br class="d-none-md">
+                    <!-- This is the actual component to show the score card for the games played in the past.-->
+                    <div class="card">
+                        <div class="card-body">
+
+                            <!-- Score card component -->
+                            <div>
+                                <h5 class="card-title">Score Card</h5>
+                                <div class="card-subtitle mb-2 text-muted">Total Game Played : 5</div>
+                            </div>
+                            <!-- This is the container holding the players list along with their game's score e.g. wins and lost for each of the player.-->
+                            <div class="list-group w-auto">
+                                <div class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                                    aria-current="true">
+                                    <!-- This is pure HTML, CSS based element. Expectation is to develop the avatar component or use existing avatar component available on the internet.-->
+                                    <div class="rounded-circle avatar">
+                                        <div class="avatar-title">AR</div>
+                                    </div>
+
+                                    <div class="d-flex gap-2 w-100 justify-content-between">
+                                        <!-- Resuable component for player name-->
+                                        <div style="width: 50%;">
+                                            <h6 class="mb-0">Ananth Rathi</h6>
+                                        </div>
+                                        <!-- Reusbale button component wins & losses that each player has so far. Expectation is to build re-usable component.-->
+                                        <button type="button" class="btn btn-success" style="width: 25%;">
+                                            Won <span class=" badge rounded-pill bg-danger">2</span>
+                                        </button>
+                                        <!-- Reusbale button component wins & losses that each player has so far. Expectation is to build re-usable component.-->
+                                        <button type="button" class="btn btn-warning" style="width: 25%;">
+                                            Lost <span class=" badge rounded-pill bg-danger">3</span>
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <div class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                                    aria-current="true">
+                                    <!-- This is pure HTML, CSS based element. Expectation is to develop the avatar component or use existing avatar component available on the internet.-->
+                                    <div class="rounded-circle avatar">
+                                        <div class="avatar-title">RA</div>
+                                    </div>
+                                    <div class="d-flex gap-2 w-100 justify-content-between">
+                                        <!-- Resuable component for player name-->
+                                        <div style="width: 50%;">
+                                            <h6 class="mb-0">Avantika Rathod</h6>
+                                        </div>
+                                        <!-- Reusbale button component wins & losses that each player has so far. Expectation is to build re-usable component.-->
+                                        <button type="button" class="btn btn-success" style="width: 25%;">
+                                            Won <span class=" badge rounded-pill bg-danger">3</span>
+                                        </button>
+                                        <!-- Reusbale button component wins & losses that each player has so far. Expectation is to build re-usable component.-->
+                                        <button type="button" class="btn btn-warning" style="width: 25%;">
+                                            Lost <span class=" badge rounded-pill bg-danger">2</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Container for Sudoku Board i.e. Sudoku componnet, timer, players playing the game.-->
+            <div class="row">
+                <div class="col-12 col-lg-12 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="timer">
+                                <h5 class="card-title mb-3">
+                                    <div
+                                        class="p-3 bg-info bg-opacity-10 border border-info border-start-1 rounded text-danger">
+                                        Time Watch: 00:12:43
+                                    </div>
+                                    <!-- Time Watch: 00:12:43 -->
+                                </h5>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-4">
+                                    <!-- This is just a place holder image. You wil need to replace your actual implementation of sudoku board component.-->
+                                    <svg class="bd-placeholder-img img-fluid rounded" width="100%" height="250"
+                                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
+                                            fill="#dee2e6" dy=".3em">Image</text>
+                                    </svg>
+
+                                </div>
+                                <!-- This is the container to hold the players playing the game.-->
+                                <div class="col-md-8">
+                                    <!-- This should be developed as independent component and should be replaced with these lines.-->
+                                    <div class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                    </div>
+                                    <!-- This is the container to hold on the current player list playing the game.-->
+                                    <div class="list-group w-auto">
+                                        <!-- This is the composite component to be developed. It should have the avatar component as well as the name of the current players-->
+                                        <div class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                                            aria-current="true">
+                                            <!-- This is pure HTML, CSS based element. Expectation is to develop the avatar component or use existing avatar component available on the internet.-->
+                                            <div class="rounded-circle avatar">
+                                                <div class="avatar-title">AR</div>
+                                            </div>
+                                            <!-- This should be developed as the react component, which should hold the first name as wel as last name of the player. 
+                                                Please be mindful that, you will need to make it re-usable. i.e. first name, last name should be taken as a props -->
+                                            <div class="d-flex gap-2 w-100 justify-content-between">
+                                                <div style="width: 80%;">
+                                                    <h6 class="mb-0">Ananth Rathi</h6>
+                                                </div>
+                                                <small class="text-muted">Your turn...</small>
+                                            </div>
+                                        </div>
+                                        <!-- Re-use this from above component list. We are expecting re-use of the components for avatar and player name.-->
+                                        <div class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                                            aria-current="true">
+                                            <!-- This is pure HTML, CSS based element. Expectation is to develop the avatar component or use existing avatar component available on the internet.-->
+                                            <div class="rounded-circle avatar">
+                                                <div class="avatar-title">RA</div>
+                                            </div>
+                                            <div class="d-flex gap-2 w-100 justify-content-between">
+                                                <div style="width: 80%;">
+                                                    <h6 class="mb-0">Avantika Rathod</h6>
+                                                </div>
+                                                <small class="text-muted">Played</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+</body>
+
+</html>
