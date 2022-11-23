@@ -12,7 +12,12 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:jest/recommended"
   ],
-  overrides: [],
+  overrides: [
+    {
+      files: ["*.js", "*.jsx"],
+      excludedFiles: "*.test.js"
+    }
+  ],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module"
