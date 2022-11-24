@@ -6,6 +6,6 @@ Steps:
 2. npm install
 3. npm run dev-start
 4. Point your browser to http://localhost:8080
-5. At times, you may face an issue with setting up the node registry. Here are few steps to follow.
-  5.1. npm config set registry http://registry.npmjs.org/
+5. At times, you may face an issue with setting up the node registry. Here are few steps to follow.<br>
+  5.1. npm config set registry http://registry.npmjs.org/<br>
   5.2. npm config set proxy http://<domainUsername>:<domainPassword>@indblrb06intpxy01.ad.infosys.com:80/
